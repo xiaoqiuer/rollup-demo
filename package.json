@@ -8,7 +8,7 @@
     "build:webpack": "npx webpack",
     "build:rollup": "rollup --config",
     "build": "npm run build:webpack && npm run build:rollup",
-    "rollup": "rollup --config ./config/input.config.js"
+    "rollup": "rollup --config ./config/plugin.config.js"
   },
   "author": "",
   "license": "ISC",
